@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ltspfx-test-client-side-solution",
+    "id": "7e557636-5f54-42d1-ac4f-c009b2d0cead",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "LTSPFXTest description"
+      },
+      "longDescription": {
+        "default": "LTSPFXTest description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ltspfx-test Feature",
+        "description": "The feature that activates elements of the ltspfx-test solution.",
+        "id": "6c06f6d6-7a35-46d1-b342-67f121b6e22c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ltspfx-test.sppkg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.3",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "ltspfx-test",
+    "libraryId": "7e557636-5f54-42d1-ac4f-c009b2d0cead",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "LTSPFXTest",
+    "solutionShortDescription": "LTSPFXTest description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
